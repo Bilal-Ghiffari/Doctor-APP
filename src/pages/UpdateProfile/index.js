@@ -13,6 +13,7 @@ export default function UpdateProfile({navigation}) {
     profile,
     onSubmit,
   } = useUpdateProfile(navigation);
+  console.log('photo', photo);
   return (
     <View style={styles.page}>
       <Header title="Edit Profile" onPress={() => navigation.goBack()} />

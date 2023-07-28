@@ -15,7 +15,6 @@ import {
   UpdateProfile,
 } from '../pages';
 import {BottomNavigator} from '../components';
-import LocationView from '../pages/Location';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
